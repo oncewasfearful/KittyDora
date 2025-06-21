@@ -1,0 +1,133 @@
+/* Base styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  background-color: #004080;
+  color: #ffde59;
+  padding: 20px;
+  font-size: 36px;
+  margin: 0;
+  border-bottom: 4px solid #ffd700;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #012a4a;
+  padding: 10px;
+  gap: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar button {
+  background-color: #005f73;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar button:hover {
+  background-color: #0a9396;
+}
+
+.container img {
+  width: 70%;
+  max-width: 500px;
+  border-radius: 15px;
+  margin: 20px auto;
+  box-shadow: 0 0 20px #000;
+}
+
+h2 {
+  font-size: 32px;
+  color: #fcbf49;
+  margin-top: 30px;
+}
+.p1, .p2, .p3, .p4 {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.p1 {
+  background-color: #7209b7;
+}
+
+.p2 {
+  background-color: #3a0ca3;
+}
+
+.p3 {
+  background-color: #4361ee;
+}
+
+.p4 {
+  background-color: #4cc9f0;
+  color: #000;
+}
+
+.Doraqt {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #219ebc;
+  color: #fff;
+  width: 90%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Doraqt img.noobie {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.Doraqt ol {
+  list-style-type: square;
+  text-align: left;
+  margin: 15px;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+
+audio {
+  margin-top: 20px;
+  outline: none;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.footer {
+  background-color: rgb(4, 134, 134);
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 9px;
+  font-family: monospace;
+  margin-top: 40px;
+}
